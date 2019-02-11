@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="112dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/detalhe_empresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/empresa_detalhes"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="#F4F2F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Nada do que é social e humano é mais real que as utopias. Na sua vertente eutópica, as utopias constituíram sempre o fundamento simbólico e mítico sem o qual nenhuma forma de organização social se sustenta, justifica ou sobrevive. E criam, tanto na vertente eutópica como na distópica, o vocabulário da revolução e da mudança: sem os amanhãs que cantam (ou choram) teríamos, em vez de História, um presente intemporal e eterno - como o dos faraós ou o de Francis Fukuyama.
+Aldous Huxley publicou o seu Brave New World em 1932. George Orwell, que não tinha em grande conta este livro ou o seu autor, publicou 17 anos depois a sua própria distopia, Nineteen Eighty-Four. Entre estas duas datas interpôs-se a Segunda Grande Guerra: não admira que na primeira a técnica básica da opressão do Estado fosse a manipulação genética e que na segunda, depois do descrédito em que o regime nazi lançou o eugenismo, as técnicas principais da opressão sejam a lavagem ao cérebro, a s, tal como Burgess, demasiado sensatos para levar muito a sério ou muito à letra tudo o que diz o poder, e é por isso que não confundimos José Sócrates ou Maria de Lurdes Rodrigues com Voldemort.
+Ao contrário de Thatcher e de Reagan, Burgess não via no Estado a única, nem necessariamente a principal, fonte de opressão. O Estado que Burgess denuncia não é o pesadelo de Orwell, que para Burgess não passa disso mesmo: dum pesadelo. Nem é o Moloch burocrático da lenda negra anti-socialista. É, acima de tudo, o Estado de Ivan Petrovitch Pavlov e de Burrhus Frederic Skinner:"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="119dp"
+                tools:layout_editor_absoluteY="263dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
